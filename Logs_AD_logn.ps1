@@ -1,5 +1,5 @@
 uSecurityEvent
-| where Account contains "marcoso" or SubjectUserName contains "marcoso" or TargetUserName contains "marcoso"
+| where Account contains "User" or SubjectUserName contains "User" or TargetUserName contains "User"
 | project TimeGenerated, 
           Account, 
           EventID, 
